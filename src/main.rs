@@ -3,7 +3,7 @@ use serde_json::{Result, Value};
 use tera::{Tera, Context};
 mod schema;
 
-fn parse_json(json: Value, mut ctx: Context) -> Result<()> {
+fn generator(json: Value, mut ctx: Context) -> Result<()> {
 
     //Return error upon any missing fields
     
@@ -48,7 +48,7 @@ fn generate_resume() -> Result<()> {
 
     match json_data {
         Ok(json) => {
-            match parse_json(json,context) {
+            match generator(json,context) {
                 Ok(_) => {
                     println!("Resume successfully created!");
                 }
