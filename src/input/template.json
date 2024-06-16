@@ -1,0 +1,50 @@
+{
+    "name" : "",
+    "phone" : "",
+    "email" : "",
+    "linkedin" : "",
+    "github" : "",
+
+    "education" : [
+        {
+            "school" : "",
+            "degree" : "",
+            "dateRange" : "",
+            "location" : ""
+        },
+        {
+            "school" : "",
+            "degree" : "",
+            "dateRange" : "",
+            "location" : ""
+        }
+    ],
+
+    "experience" : [
+        {
+            "title" : "",
+            "place" : "",
+            "location" : "",
+            "dateRange" : "",
+            "bulletPoints" : [
+
+            ]
+        }
+    ],
+
+    "projects" : [
+        {
+            "name" : "",
+            "technologies" : [],
+            "bulletPoints" : [],
+            "dateRange" : ""
+        }
+    ],
+
+    "skills" : {
+        "languages" : [],
+        "frameworks" : [],
+        "tools" : [],
+        "libraries" : []
+    }
+}

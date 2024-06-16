@@ -1,0 +1,52 @@
+{
+    "name" : "Julian Elmasry",
+    "phone" : "516-580-5990",
+    "email" : "julian31186@gmail.com",
+    "linkedin" : "https://www.linkedin.com/in/julian-elmasry-843604228/",
+    "github" : "https://github.com/julian31186",
+
+    "education" : [
+        {
+            "school" : "Stony Brook University",
+            "degree" : "B.S. Information Systems",
+            "date_range" : "",
+            "location" : ""
+        },
+        {
+            "school" : "University At Buffalo",
+            "degree" : "B.S Computer Science",
+            "date_range" : "",
+            "location" : ""
+        }
+    ],
+
+    "experience" : [
+        {
+            "title" : "",
+            "place" : "",
+            "location" : "",
+            "date_range" : "",
+            "bullet_points" : [
+
+            ]
+        }
+    ],
+
+    "projects" : [
+        {
+            "name" : "Project 1",
+            "technologies" : ["Technology 1", "Technology 2"],
+            "bullet_points" : [
+
+            ],
+            "date_range" : "Description of project 1"
+        }
+    ],
+
+    "skills" : {
+        "languages" : ["Java", "C++", "Python", "JavaScript", "HTML", "CSS", "SQL"],
+        "frameworks" : ["Spring", "Hibernate", "React", "Node.js", "Express.js", "Bootstrap", "JQuery"],
+        "tools" : ["Git", "GitHub", "Jira", "Confluence", "Postman", "IntelliJ", "Eclipse", "Visual Studio Code", "MySQL", "MongoDB", "AWS", "Docker", "Kubernetes", "Jenkins", "SonarQube", "Selenium", "JUnit", "Mockito", "PowerMock", "Jest", "Enzyme", "Cypress", "JMeter", "LoadRunner", "Postman", "Swagger", "SoapUI", "REST Assured", "TestNG", "JUnit", "Mockito", "PowerMock", "Jest", "Enzyme", "Cypress", "JMeter", "LoadRunner", "Postman", "Swagger", "SoapUI", "REST Assured", "TestNG", "JUnit", "Mockito", "PowerMock", "Jest", "Enzyme", "Cypress", "JMeter", "LoadRunner", "Postman", "Swagger", "SoapUI", "REST Assured", "TestNG"],
+        "libraries" : ["JUnit", "Mockito", "PowerMock", "Jest", "Enzyme", "Cypress", "JMeter", "LoadRunner", "Postman", "Swagger", "SoapUI", "REST Assured", "TestNG"]
+    }
+}
