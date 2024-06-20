@@ -5,6 +5,7 @@ Generate a pdf resume using Jakes template from JSON input
 # How to use
 - Fill in the src/input/resume.json file with resume information _template.json format \
 (Note: any inputs that are in the form of an array ([]) can have additional elements added) \
+(Extra Note: all arrays are composed of string elements e.g ["One", "Two"])
 
 - Install the Docker engine on your system
 
