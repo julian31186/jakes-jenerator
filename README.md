@@ -21,4 +21,4 @@ docker build -t jakes-jenerator . && docker run -v $(pwd)/src/output:/app/src/ou
 
 
 # JSON Mapping
-![alt text](image.png)
+![alt text](mapping.png)
