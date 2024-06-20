@@ -118,7 +118,7 @@
 
 \begin{center}
     \textbf{\Huge \scshape {{ name }} } \\ \vspace{1pt}
-    \small {{ phone_number }} $|$ \href{mailto:x@x.com}{\underline{ {{ email }} }} $|$ 
+    \small {{ phone }} $|$ \href{mailto:x@x.com}{\underline{ {{ email }} }} $|$ 
     \href{ {{ linkedin }} }{\underline{ linkedin.com/in/{{ name }} }} $|$
     \href{ {{ github }} }{\underline{ github.com/{{ name }} }}
 \end{center}
@@ -130,7 +130,7 @@
 
     {% for education in educations %}
         \resumeSubheading
-        { {{ education.name }} }{ {{ education.location }} }
+        { {{ education.school }} }{ {{ education.location }} }
         { {{ education.degree }} }{ {{ education.date_range }} }
     {% endfor %}
 
@@ -175,38 +175,16 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-        \textbf{Languages}{: 
-        {% for language in languages %} 
-        {{ language }} 
-        {% if loop.index  < loop.length %}
-        , 
-        {% endif %} 
-        {% endfor %} } \\
+        \textbf{Languages}{: {{ languages | join(sep=", ") }} }
         
-        \textbf{Frameworks}{:
-        {% for framework in frameworks %}
-        {{ framework }}
-        {% if loop.index  < loop.length %}
-        ,
-        {% endif %}
-        {% endfor %} } \\
+        \textbf{Frameworks}{: {{ frameworks | join(sep=", ") }} }
 
-        \textbf{Developer Tools}{:
-        {% for tool in tools %}
-        {{ tool }}
-        {% if loop.index  < loop.length %}
-        ,
-        {% endif %}
-        {% endfor %} } \\
+        \textbf{Developer Tools}{: {{ tools | join(sep=", ") }} }
 
         
-        \textbf{Libraries}{:
-        {% for library in libraries %}
-        {{ library }}
-        {% if loop.index  < loop.length %}
-        ,
-        {% endif %}
-        {% endfor %} } \\
+        \textbf{Libraries}{: {{ libraries | join(sep=", ") }} }
+    }
+    }
 
  \end{itemize}
 
