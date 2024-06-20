@@ -6,7 +6,12 @@
     "github" : "",
 
     "educations" : [
-
+        {
+            "school" : "",
+            "degree" : "",
+            "date_range" : "",
+            "location" : ""
+        }
     ],
 
     "experiences" : [
